@@ -197,7 +197,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-#Refrence for raw_data https://knowledge.udacity.com/questions/307041#
+#Refrence for raw_data https://knowledge.udacity.com/questions/307041 Give users a chance to display raw data#
 
 def raw_data(df):
     i=0
