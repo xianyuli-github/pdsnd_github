@@ -206,7 +206,7 @@ def raw_data(df):
     while rawdata_input in ['yes','y','yeah'] and i+5 < df.shape[0]:
         print(df.iloc[i:i+5])
         i += 5
-        rawdata_input = input("\nWould you like to have more raw data displayed? Enter 'yes' or 'no'\n").strip().lower()
+        rawdata_input = input("\nDo you want to see more raw data? Enter 'yes' or 'no'\n").strip().lower()
 
 
 def main():
